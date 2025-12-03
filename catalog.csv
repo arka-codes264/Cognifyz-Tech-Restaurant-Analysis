@@ -1,0 +1,16 @@
+type,brand,model,supported_os,chipset,price_inr,weight_g,voltage,freq,uart_count,spi_count,i2c_count,camera_resolution,notes
+controller,Holybro,Pixhawk 6C,PX4/ArduPilot,Pixhawk,250,38,5-12,"2.4GHz,900MHz",4,0,0,None,High reliability flight controller
+controller,Raspberry Pi,RPi 4B 4GB,Linux/ROS,Pi,650,46,5,"WiFi,BLE",0,2,2,None,Good for onboard AI
+controller,Espressif,ESP32 DevKit V1,FreeRTOS,ESP32,450,12,5,"WiFi,BLE",0,1,2,None,Great for beginners
+controller,Arduino,Arduino Nano,Baremetal,AVR,350,7,5,None,0,0,2,None,Simple robotics projects
+transmitter,FrSky,Taranis X9D+,OpenTX/EdgeTX,2.4GHz,15000,700,6-15,2.4GHz,10,0,0,None,Professional RC controller
+transmitter,Radiomaster,TX16S MKII,EdgeTX,2.4GHz,18000,750,6-8,2.4GHz,10,0,0,None,Multi-protocol support
+transmitter,Generic,NRF24L01+ PA,Baremetal,2.4GHz,250,12,3.3,2.4GHz,1,0,0,None,Cheap long-range hackable TX
+receiver,FrSky,X8R,SBUS/SmartPort,2.4GHz,5500,16,4-10,2.4GHz,8,0,0,None,Full-range RX
+receiver,FlySky,FS-iA6B,AFHDS2A,2.4GHz,2400,14,4-6.5,2.4GHz,6,0,0,None,Budget receiver
+receiver,Generic,NRF24L01+,Baremetal,2.4GHz,150,10,3.3,2.4GHz,1,0,0,None,DIY receiver
+camera,Raspberry Pi,Pi Camera V2,None,1080p,2500,3,5,None,0,0,0,1080p,Great small camera
+camera,Sony,IMX219 4K Cam,None,4k,4500,4,5,None,0,0,0,4k,High-res CSI camera
+camera,Generic,AHD Mini FPV Cam,AHD,720p,1500,15,12,None,0,0,0,720p,FPV analog camera
+battery,Tattu,1000mAh 4S LiPo,None,None,2200,120,14.8,None,0,0,0,None,Drone battery
+battery,Sony,18650 Li-ion,None,None,400,45,3.7,None,0,0,0,None,DIY robotics battery
